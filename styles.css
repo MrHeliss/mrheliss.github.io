@@ -20,7 +20,7 @@ h2 {
 h1 b {
     letter-spacing: 0.05em;
     text-decoration: underline;
-    color: #b81a1a;
+    color: #5dc70c;
 }
 
 h1 {
@@ -68,7 +68,7 @@ not needed
 
 /* Main menu styling */
 #site-navigation {
-    background-color: #b81a1a;
+    background-color: #5dc70c;
     position: fixed;
     bottom: auto;
     width: 100%;
@@ -158,7 +158,7 @@ wrap content if screen size is too small, add spacing with border-box*/
 }
 
 .cta-btn:hover {
-    background-color: #b81a1a;
+    background-color: #5dc70c;
     color: #000000;
 }
 
@@ -172,7 +172,7 @@ wrap content if screen size is too small, add spacing with border-box*/
     font-size: 1rem;
     color: #d7d7d7;
     line-height: 1.5;
-    background-color: #b81a1a;
+    background-color: #5dc70c;
     margin-top: 4em;
     padding-top: 1.5em;
     padding-bottom: 3em;
