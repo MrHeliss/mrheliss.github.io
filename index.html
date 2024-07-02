@@ -55,8 +55,8 @@ src="https://www.facebook.com/tr?id=5816662715057789&ev=PageView&noscript=1"
 
         <!-- First screen of the page -->
 
-<html>
-<head>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 .container {
@@ -125,8 +125,60 @@ src="https://www.facebook.com/tr?id=5816662715057789&ev=PageView&noscript=1"
         <div class="section-white" id="first-section">
             <div class="content" id="first-frame">
                 <h1 id="index-header">BRING YOUR BOTTLES<br><b>RIGHT NOW</b></h1>
-                <div class="side-image">
-                    <img src="IMG1.png" alt="Painting of a girl sleeping">
+           <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 50%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 20;
+  right: ;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<h2>Fade in Overlay</h2>
+<p>Hover over the image to see the effect.</p>
+
+<div class="container">
+  <img src="IMG1.png" alt="Avatar" class="image">
+  <div class="overlay">
+    <div class="text">Mr.Deposite</div>
+  </div>
+                    
                 </div>
             </div>
         </div>
