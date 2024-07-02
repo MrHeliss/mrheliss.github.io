@@ -324,7 +324,7 @@ table a:hover, p a:hover {
 
 /* Dark mode buttons */
 .cta-btn-lrg {
-    background-color: #e0c898;
+    background-color: #0ae307;
     color: #fff;
     border-radius: 0.25rem;
     border: 2px solid white;
@@ -338,7 +338,7 @@ table a:hover, p a:hover {
 }
 
 .cta-btn-lrg:hover {
-    background-color: #98b0e0;
+    background-color: #05631b;
 }
 
 /* Hide nav button if display is too small */
