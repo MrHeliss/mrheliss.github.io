@@ -159,7 +159,7 @@ wrap content if screen size is too small, add spacing with border-box*/
 
 .cta-btn:hover {
     background-color: #b81a1a;
-    color: #fff;
+    color: #000000;
 }
 
 #menu-item-lights {
